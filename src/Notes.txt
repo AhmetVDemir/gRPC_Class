@@ -1,0 +1,1 @@
+Proto => Protokol dosyasıdır : mesajlaşma türlerini protokolünü belirler
