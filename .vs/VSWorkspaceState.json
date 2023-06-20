@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\grpcServer",
+    "\\src\\grpcServer\\grpcServer",
+    "\\src\\grpcServer\\grpcServer\\Protos"
+  ],
+  "SelectedNode": "\\src\\grpcServer\\grpcServer\\Protos\\greet.proto",
+  "PreviewInSolutionExplorer": false
+}
