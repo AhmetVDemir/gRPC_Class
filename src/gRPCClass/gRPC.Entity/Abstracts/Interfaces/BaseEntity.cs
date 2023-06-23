@@ -7,5 +7,6 @@ namespace gRPC.Entity.Abstracts.Interfaces
     {
         public Guid Id { get; set; }
         public DateTime CreatedAt { get; set; }
+
     }
 }
