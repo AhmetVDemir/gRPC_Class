@@ -12,10 +12,12 @@ namespace gRPC.Data.Concrete.Context
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer(@"Server=B166ER;Database=avd;Trusted_Connection=true;");
+            optionsBuilder.UseSqlServer(@"Server=B166ER;Database=grpc;Trusted_Connection=true;");
         }
 
         public DbSet<gRPC.Entity.Concrete.Entities.User> Users { get; set; }
         public DbSet<gRPC.Entity.Concrete.Entities.Task> Tasks { get; set; }
+
+        public DbSet<gRPC.Entity.Concrete.Entities.AsignList> AsignLists { get; set; }
     }
 }

@@ -1,6 +1,4 @@
-﻿
-using gRPC.Entity.Abstracts.Abstract;
-using gRPC.Entity.Abstracts.Interfaces;
+﻿using gRPC.Entity.Concrete.Entities;
 using gRPC.Entity.Concrete.Global.Enums;
 using System;
 using System.Collections.Generic;
@@ -8,11 +6,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace gRPC.Entity.Concrete.Entities
+namespace gRPC.Entity.Concrete.DTOs
 {
-    public class Task : BaseEntity, IEntity
+    public class TaskDTO
     {
-
         string TaskName { get; set; }
 
         string Decription { get; set; }
@@ -21,11 +18,8 @@ namespace gRPC.Entity.Concrete.Entities
 
         DateTime TerminTime { get; set; }
 
-        Guid CreatedBy { get; set; }
-
         Enums Proggress { get; set; }
 
-
+        List<AsignList> AsignTo { get; set; }
     }
 }
-
