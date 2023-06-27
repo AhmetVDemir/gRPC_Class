@@ -1,0 +1,17 @@
+C:\Users\B166ER\Desktop\Project\gRPC_Class\src\gRPCClass\gRPC.Business\bin\Debug\net6.0\gRPC.Business.deps.json
+C:\Users\B166ER\Desktop\Project\gRPC_Class\src\gRPCClass\gRPC.Business\bin\Debug\net6.0\gRPC.Business.dll
+C:\Users\B166ER\Desktop\Project\gRPC_Class\src\gRPCClass\gRPC.Business\bin\Debug\net6.0\gRPC.Business.pdb
+C:\Users\B166ER\Desktop\Project\gRPC_Class\src\gRPCClass\gRPC.Business\bin\Debug\net6.0\gRPC.Core.dll
+C:\Users\B166ER\Desktop\Project\gRPC_Class\src\gRPCClass\gRPC.Business\bin\Debug\net6.0\gRPC.Entity.dll
+C:\Users\B166ER\Desktop\Project\gRPC_Class\src\gRPCClass\gRPC.Business\bin\Debug\net6.0\gRPC.Core.pdb
+C:\Users\B166ER\Desktop\Project\gRPC_Class\src\gRPCClass\gRPC.Business\bin\Debug\net6.0\gRPC.Entity.pdb
+C:\Users\B166ER\Desktop\Project\gRPC_Class\src\gRPCClass\gRPC.Business\obj\Debug\net6.0\gRPC.Business.csproj.AssemblyReference.cache
+C:\Users\B166ER\Desktop\Project\gRPC_Class\src\gRPCClass\gRPC.Business\obj\Debug\net6.0\gRPC.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\B166ER\Desktop\Project\gRPC_Class\src\gRPCClass\gRPC.Business\obj\Debug\net6.0\gRPC.Business.AssemblyInfoInputs.cache
+C:\Users\B166ER\Desktop\Project\gRPC_Class\src\gRPCClass\gRPC.Business\obj\Debug\net6.0\gRPC.Business.AssemblyInfo.cs
+C:\Users\B166ER\Desktop\Project\gRPC_Class\src\gRPCClass\gRPC.Business\obj\Debug\net6.0\gRPC.Business.csproj.CoreCompileInputs.cache
+C:\Users\B166ER\Desktop\Project\gRPC_Class\src\gRPCClass\gRPC.Business\obj\Debug\net6.0\gRPC.Business.csproj.CopyComplete
+C:\Users\B166ER\Desktop\Project\gRPC_Class\src\gRPCClass\gRPC.Business\obj\Debug\net6.0\gRPC.Business.dll
+C:\Users\B166ER\Desktop\Project\gRPC_Class\src\gRPCClass\gRPC.Business\obj\Debug\net6.0\refint\gRPC.Business.dll
+C:\Users\B166ER\Desktop\Project\gRPC_Class\src\gRPCClass\gRPC.Business\obj\Debug\net6.0\gRPC.Business.pdb
+C:\Users\B166ER\Desktop\Project\gRPC_Class\src\gRPCClass\gRPC.Business\obj\Debug\net6.0\ref\gRPC.Business.dll

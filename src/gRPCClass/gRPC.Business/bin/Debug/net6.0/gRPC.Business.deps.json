@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "gRPC.Business/1.0.0": {
+        "dependencies": {
+          "gRPC.Core": "1.0.0",
+          "gRPC.Entity": "1.0.0"
+        },
+        "runtime": {
+          "gRPC.Business.dll": {}
+        }
+      },
+      "gRPC.Core/1.0.0": {
+        "runtime": {
+          "gRPC.Core.dll": {}
+        }
+      },
+      "gRPC.Entity/1.0.0": {
+        "runtime": {
+          "gRPC.Entity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "gRPC.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "gRPC.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "gRPC.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

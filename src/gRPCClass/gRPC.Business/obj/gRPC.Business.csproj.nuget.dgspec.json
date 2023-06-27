@@ -4,12 +4,12 @@
     "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\gRPC.Business\\gRPC.Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\Core\\Core.csproj": {
+    "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\Core\\gRPC.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\Core\\Core.csproj",
-        "projectName": "Core",
-        "projectPath": "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\Core\\gRPC.Core.csproj",
+        "projectName": "gRPC.Core",
+        "projectPath": "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\Core\\gRPC.Core.csproj",
         "packagesPath": "C:\\Users\\B166ER\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\Core\\obj\\",
         "projectStyle": "PackageReference",
@@ -83,8 +83,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\Core\\Core.csproj"
+              "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\Core\\gRPC.Core.csproj": {
+                "projectPath": "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\Core\\gRPC.Core.csproj"
               },
               "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\gRPC.Entity\\gRPC.Entity.csproj": {
                 "projectPath": "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\gRPC.Entity\\gRPC.Entity.csproj"

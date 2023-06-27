@@ -2,14 +2,14 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "Core/1.0.0": {
+      "gRPC.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Core.dll": {}
+          "bin/placeholder/gRPC.Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Core.dll": {}
+          "bin/placeholder/gRPC.Core.dll": {}
         }
       },
       "gRPC.Entity/1.0.0": {
@@ -25,10 +25,10 @@
     }
   },
   "libraries": {
-    "Core/1.0.0": {
+    "gRPC.Core/1.0.0": {
       "type": "project",
-      "path": "../Core/Core.csproj",
-      "msbuildProject": "../Core/Core.csproj"
+      "path": "../Core/gRPC.Core.csproj",
+      "msbuildProject": "../Core/gRPC.Core.csproj"
     },
     "gRPC.Entity/1.0.0": {
       "type": "project",
@@ -38,7 +38,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Core >= 1.0.0",
+      "gRPC.Core >= 1.0.0",
       "gRPC.Entity >= 1.0.0"
     ]
   },
@@ -69,8 +69,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\Core\\Core.csproj"
+            "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\Core\\gRPC.Core.csproj": {
+              "projectPath": "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\Core\\gRPC.Core.csproj"
             },
             "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\gRPC.Entity\\gRPC.Entity.csproj": {
               "projectPath": "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\gRPC.Entity\\gRPC.Entity.csproj"

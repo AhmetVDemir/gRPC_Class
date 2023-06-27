@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pw242CdL+qaT9W8QdqUYfVwWgupblDd+ty3kaOTLkPeDayT6mzkgpHdIBPQlXxjHUjFZnXbbfgWJUqTqeVrCKg==",
+  "dgSpecHash": "lA1+dW3Hzjg4tX3xXtAOYBGkEgMoaMLyRjXn8m2qIRxnJwEu9vYSq7iD6A7ojGeXJ/2foq+JcqVwDOdHVesUGA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\Core\\Core.csproj",
+  "projectFilePath": "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\Core\\gRPC.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
