@@ -1,6 +1,8 @@
 ﻿using Core.Utilities.Results;
 using gRPC.Business.Absrtract;
+using gRPC.Data.Abstract;
 using gRPC.Entity.Concrete.DTOs;
+using gRPC.Entity.Concrete.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +13,14 @@ namespace gRPC.Business.Concrete
 {
     public class TaskManeger : ITaskService
     {
+        ITaskDal _taskDal;
+
+        public TaskManeger(ITaskDal taskDal)
+        {
+            _taskDal = taskDal;
+        }
+
+
         public IResult Add(TaskDTO task)
         {
             throw new NotImplementedException();
@@ -28,7 +38,7 @@ namespace gRPC.Business.Concrete
 
         public IDataResult<List<TaskDTO>> GetAll()
         {
-            throw new NotImplementedException();
+            return new SuccessDataResult<List<TaskDTO>>(new List<TaskDTO>(), "Ok");
         }
 
         public IResult Update(TaskDTO task)
