@@ -17,7 +17,6 @@ namespace gRPC.Data.Concrete.Context
 
         public DbSet<gRPC.Entity.Concrete.Entities.User> Users { get; set; }
         public DbSet<gRPC.Entity.Concrete.Entities.Task> Tasks { get; set; }
-
         public DbSet<gRPC.Entity.Concrete.Entities.AsignList> AsignLists { get; set; }
     }
 }

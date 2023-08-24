@@ -15,3 +15,5 @@ C:\Users\B166ER\Desktop\Project\gRPC_Class\src\gRPCClass\gRPC.Business\obj\Debug
 C:\Users\B166ER\Desktop\Project\gRPC_Class\src\gRPCClass\gRPC.Business\obj\Debug\net6.0\refint\gRPC.Business.dll
 C:\Users\B166ER\Desktop\Project\gRPC_Class\src\gRPCClass\gRPC.Business\obj\Debug\net6.0\gRPC.Business.pdb
 C:\Users\B166ER\Desktop\Project\gRPC_Class\src\gRPCClass\gRPC.Business\obj\Debug\net6.0\ref\gRPC.Business.dll
+C:\Users\B166ER\Desktop\Project\gRPC_Class\src\gRPCClass\gRPC.Business\bin\Debug\net6.0\gRPC.Data.dll
+C:\Users\B166ER\Desktop\Project\gRPC_Class\src\gRPCClass\gRPC.Business\bin\Debug\net6.0\gRPC.Data.pdb

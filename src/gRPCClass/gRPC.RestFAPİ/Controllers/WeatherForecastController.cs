@@ -30,14 +30,7 @@ namespace gRPC.RestFAPİ.Controllers
             .ToArray();
         }
 
-        [Route("/voidc")]
-        [HttpGet]
-        public void GetVoid()
-        {
-            _logger.LogInformation("Logged");
-            var x = Summaries.Length;
-
-        }
+       
     }
 
 

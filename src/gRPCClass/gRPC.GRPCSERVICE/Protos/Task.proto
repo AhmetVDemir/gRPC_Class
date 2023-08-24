@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "gRPC.WFProto";
+
+package TaskService;
+
+service gRPCTask {
+  rpc AddTask (AddTaskRequestPTO) returns (AddTaskResponsePTO);
+}
+
+
+
+message AddTaskRequestPTO{
+	int32 Id =1;
+}
+
+message AddTaskResponsePTO{
+	bool proccess =1;
+}

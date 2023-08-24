@@ -1,7 +1,6 @@
 C:\Users\B166ER\Desktop\Project\gRPC_Class\src\gRPCClass\Core\bin\Debug\net6.0\gRPC.Core.deps.json
 C:\Users\B166ER\Desktop\Project\gRPC_Class\src\gRPCClass\Core\bin\Debug\net6.0\gRPC.Core.dll
 C:\Users\B166ER\Desktop\Project\gRPC_Class\src\gRPCClass\Core\bin\Debug\net6.0\gRPC.Core.pdb
-C:\Users\B166ER\Desktop\Project\gRPC_Class\src\gRPCClass\Core\obj\Debug\net6.0\gRPC.Core.csproj.AssemblyReference.cache
 C:\Users\B166ER\Desktop\Project\gRPC_Class\src\gRPCClass\Core\obj\Debug\net6.0\gRPC.Core.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\B166ER\Desktop\Project\gRPC_Class\src\gRPCClass\Core\obj\Debug\net6.0\gRPC.Core.AssemblyInfoInputs.cache
 C:\Users\B166ER\Desktop\Project\gRPC_Class\src\gRPCClass\Core\obj\Debug\net6.0\gRPC.Core.AssemblyInfo.cs
