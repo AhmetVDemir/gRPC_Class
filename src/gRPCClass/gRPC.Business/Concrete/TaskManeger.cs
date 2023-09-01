@@ -23,12 +23,28 @@ namespace gRPC.Business.Concrete
 
         public IResult Add(TaskDTO task)
         {
-            throw new NotImplementedException();
+            try
+            {
+               
+                return new SuccessResult("Ekleme Başarılı");
+            }
+            catch(Exception ex)
+            {
+                return new ErrorResult("Hata oluştu : " + ex.Message);
+            }
         }
 
         public IResult Delete(TaskDTO task)
         {
-            throw new NotImplementedException();
+            try
+            {
+                
+                return new SuccessResult("Silme Başarılı");
+            }
+            catch (Exception ex)
+            {
+                return ErrorResult("Hata oluştu : " +ex.Message);
+            }
         }
 
         public IDataResult<TaskDTO> Get(Guid Id)
