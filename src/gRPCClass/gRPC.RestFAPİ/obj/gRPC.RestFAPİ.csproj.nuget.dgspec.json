@@ -4,14 +4,14 @@
     "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\gRPC.RestFAPİ\\gRPC.RestFAPİ.csproj": {}
   },
   "projects": {
-    "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\gRPC.RestFAPİ\\gRPC.RestFAPİ.csproj": {
+    "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\Core\\gRPC.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\gRPC.RestFAPİ\\gRPC.RestFAPİ.csproj",
-        "projectName": "gRPC.RestFAPİ",
-        "projectPath": "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\gRPC.RestFAPİ\\gRPC.RestFAPİ.csproj",
+        "projectUniqueName": "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\Core\\gRPC.Core.csproj",
+        "projectName": "gRPC.Core",
+        "projectPath": "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\Core\\gRPC.Core.csproj",
         "packagesPath": "C:\\Users\\B166ER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\gRPC.RestFAPİ\\obj\\",
+        "outputPath": "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\B166ER\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,7 +39,285 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\gRPC.Business\\gRPC.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\gRPC.Business\\gRPC.Business.csproj",
+        "projectName": "gRPC.Business",
+        "projectPath": "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\gRPC.Business\\gRPC.Business.csproj",
+        "packagesPath": "C:\\Users\\B166ER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\gRPC.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\B166ER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\Core\\gRPC.Core.csproj": {
+                "projectPath": "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\Core\\gRPC.Core.csproj"
+              },
+              "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\gRPC.Data\\gRPC.Data.csproj": {
+                "projectPath": "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\gRPC.Data\\gRPC.Data.csproj"
+              },
+              "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\gRPC.Entity\\gRPC.Entity.csproj": {
+                "projectPath": "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\gRPC.Entity\\gRPC.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\gRPC.Data\\gRPC.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\gRPC.Data\\gRPC.Data.csproj",
+        "projectName": "gRPC.Data",
+        "projectPath": "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\gRPC.Data\\gRPC.Data.csproj",
+        "packagesPath": "C:\\Users\\B166ER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\gRPC.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\B166ER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\gRPC.Entity\\gRPC.Entity.csproj": {
+                "projectPath": "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\gRPC.Entity\\gRPC.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\gRPC.Entity\\gRPC.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\gRPC.Entity\\gRPC.Entity.csproj",
+        "projectName": "gRPC.Entity",
+        "projectPath": "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\gRPC.Entity\\gRPC.Entity.csproj",
+        "packagesPath": "C:\\Users\\B166ER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\gRPC.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\B166ER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\gRPC.RestFAPİ\\gRPC.RestFAPİ.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\gRPC.RestFAPİ\\gRPC.RestFAPİ.csproj",
+        "projectName": "gRPC.RestFAPİ",
+        "projectPath": "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\gRPC.RestFAPİ\\gRPC.RestFAPİ.csproj",
+        "packagesPath": "C:\\Users\\B166ER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\gRPC.RestFAPİ\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\B166ER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\gRPC.Business\\gRPC.Business.csproj": {
+                "projectPath": "C:\\Users\\B166ER\\Desktop\\Project\\gRPC_Class\\src\\gRPCClass\\gRPC.Business\\gRPC.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"

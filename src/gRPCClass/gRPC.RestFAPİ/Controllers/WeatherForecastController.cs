@@ -1,3 +1,5 @@
+using gRPC.Business.Absrtract;
+using gRPC.Entity.Concrete.DTOs;
 using Microsoft.AspNetCore.Mvc;
 
 namespace gRPC.RestFAPİ.Controllers
@@ -12,10 +14,12 @@ namespace gRPC.RestFAPİ.Controllers
     };
 
         private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ITaskService _taskService;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public WeatherForecastController(ILogger<WeatherForecastController> logger, ITaskService taskService)
         {
             _logger = logger;
+            _taskService = taskService;
         }
 
         [HttpGet(Name = "GetWeatherForecast")]
@@ -28,6 +32,12 @@ namespace gRPC.RestFAPİ.Controllers
                 Summary = Summaries[Random.Shared.Next(Summaries.Length)]
             })
             .ToArray();
+        }
+        [Route("/gettest")]
+        [HttpGet]
+        public string GetTest(TaskDTO taskDTO) {
+            var c = _taskService.Add(new Entity.Concrete.DTOs.TaskDTO());
+            return "Tamamdır";
         }
 
        

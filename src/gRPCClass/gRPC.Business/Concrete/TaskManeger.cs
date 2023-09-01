@@ -1,5 +1,6 @@
 ﻿using Core.Utilities.Results;
 using gRPC.Business.Absrtract;
+using gRPC.Core.Utils.Mapper;
 using gRPC.Data.Abstract;
 using gRPC.Entity.Concrete.DTOs;
 using gRPC.Entity.Concrete.Entities;
@@ -8,6 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Task = gRPC.Entity.Concrete.Entities.Task;
 
 namespace gRPC.Business.Concrete
 {
@@ -25,7 +27,10 @@ namespace gRPC.Business.Concrete
         {
             try
             {
-               
+                Task destinationAuto = ModelConverter.Convert<TaskDTO, Task>(task);
+
+                var c = destinationAuto;
+
                 return new SuccessResult("Ekleme Başarılı");
             }
             catch(Exception ex)
@@ -43,7 +48,7 @@ namespace gRPC.Business.Concrete
             }
             catch (Exception ex)
             {
-                return ErrorResult("Hata oluştu : " +ex.Message);
+                return new ErrorResult("Hata oluştu : " + ex.Message);
             }
         }
 
