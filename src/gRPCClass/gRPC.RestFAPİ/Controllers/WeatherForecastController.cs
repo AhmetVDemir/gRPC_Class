@@ -34,13 +34,30 @@ namespace gRPC.RestFAPİ.Controllers
             .ToArray();
         }
         [Route("/gettest")]
-        [HttpGet]
-        public string GetTest(TaskDTO taskDTO) {
+        [HttpPost]
+        public IActionResult GetTest(TaskDTO taskDTO) {
+            var x = taskDTO;
             var c = _taskService.Add(new Entity.Concrete.DTOs.TaskDTO());
-            return "Tamamdır";
+            return Ok("Tamamdır");
         }
 
        
+    }
+
+    public class TestModel
+    {
+        public string TaskName { get; set; }
+
+        public string Description { get; set; }
+
+        public string StartTime { get; set; }
+
+        public string TerminTime { get; set; }
+
+        public string Proggress { get; set; }
+
+        public string AsignTo { get; set; }
+
     }
 
 

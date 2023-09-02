@@ -23,7 +23,7 @@ namespace gRPC.Entity.Concrete.Entities
 
         Guid CreatedBy { get; set; }
 
-        Enums Proggress { get; set; }
+        TaskProgresses Proggress { get; set; }
 
 
     }

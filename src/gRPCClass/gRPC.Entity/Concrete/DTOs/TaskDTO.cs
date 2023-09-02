@@ -18,8 +18,8 @@ namespace gRPC.Entity.Concrete.DTOs
 
         DateTime TerminTime { get; set; }
 
-        Enums Proggress { get; set; }
+        int Proggress { get; set; } = (int)TaskProgresses.NewPlanning;
 
-        List<AsignList> AsignTo { get; set; }
+        List<string> AsignTo { get; set; }
     }
 }
