@@ -33,33 +33,38 @@ namespace gRPC.RestFAPİ.Controllers
             })
             .ToArray();
         }
+
+
         [Route("/gettest")]
-        [HttpPost]
-        public IActionResult GetTest(TaskDTO taskDTO) {
-            var x = taskDTO;
-            var c = _taskService.Add(new Entity.Concrete.DTOs.TaskDTO());
-            return Ok("Tamamdır");
+        [HttpGet]
+        public IActionResult GetTest()
+        {
+            
+
+            // Tüm zaman dilimi bilgilerini almak için TimeZoneInfo.GetSystemTimeZones metodunu kullanabilirsiniz.
+            var timeZones = TimeZoneInfo.GetSystemTimeZones();
+
+            List<string> trt = new List<string>();
+            foreach (var timeZone in timeZones)
+            {
+                trt.Add(timeZone.Id.ToString() + " : " + timeZone.BaseUtcOffset.ToString());
+            }
+            return Ok(trt);
+
+
         }
-
-       
     }
 
-    public class TestModel
+
+    
+    public class TimeZoneInfoDto
     {
-        public string TaskName { get; set; }
-
-        public string Description { get; set; }
-
-        public string StartTime { get; set; }
-
-        public string TerminTime { get; set; }
-
-        public string Proggress { get; set; }
-
-        public string AsignTo { get; set; }
-
+        public string Id { get; set; }
+        public string StandardName { get; set; }
+        public string DaylightName { get; set; }
+        public TimeSpan BaseUtcOffset { get; set; }
+        public bool SupportsDaylightSavingTime { get; set; }
     }
 
 
- 
 }

@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "gRPC.GRPCSERVICE";
+
+package TestService;
+
+service TestService {
+  rpc AddTask (AddTaskRequestPTO) returns (AddTaskResponsePTO);
+}
+
+
+
+message AddTaskRequestPTO{
+	int32 Id =1;
+}
+
+message AddTaskResponsePTO{
+	bool proccess =1;
+}
