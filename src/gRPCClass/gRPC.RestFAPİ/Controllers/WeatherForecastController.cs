@@ -1,6 +1,7 @@
 using gRPC.Business.Absrtract;
 using gRPC.Entity.Concrete.DTOs;
 using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
 
 namespace gRPC.RestFAPİ.Controllers
 {
@@ -39,19 +40,42 @@ namespace gRPC.RestFAPİ.Controllers
         [HttpGet]
         public IActionResult GetTest()
         {
-            
+            var timezones = TimeZoneInfo.GetSystemTimeZones();
 
-            // Tüm zaman dilimi bilgilerini almak için TimeZoneInfo.GetSystemTimeZones metodunu kullanabilirsiniz.
-            var timeZones = TimeZoneInfo.GetSystemTimeZones();
+            var outlet2 = new Dictionary<double, List<string>>();
 
-            List<string> trt = new List<string>();
-            foreach (var timeZone in timeZones)
+            timezones.ToList().ForEach(tz =>
             {
-                trt.Add(timeZone.Id.ToString() + " : " + timeZone.BaseUtcOffset.ToString());
-            }
-            return Ok(trt);
+                double utcOffsetMinutes = tz.GetUtcOffset(DateTime.Now).TotalMinutes;
+                string displayName = tz.DisplayName;
+
+                if (outlet2.ContainsKey(utcOffsetMinutes))
+                {
+                    // Eğer anahtar (UTC ofseti) zaten varsa, ilgili listeye yeni bir zaman dilimi adı ekleyin.
+                    outlet2[utcOffsetMinutes].Add(displayName);
+                }
+                else
+                {
+                    // Eğer anahtar (UTC ofseti) daha önce eklenmemişse, yeni bir liste oluşturun ve zaman dilimi adını ekleyin.
+                    var displayNameList = new List<string> { displayName };
+                    outlet2.Add(utcOffsetMinutes, displayNameList);
+                }
+            });
+
+            return Ok(outlet2);
 
 
+        }
+
+        [Route("/test2")]
+        [HttpGet]
+        public IActionResult GetTest2()
+        {
+            int i = 0;
+
+
+
+            return Ok("z");
         }
     }
 

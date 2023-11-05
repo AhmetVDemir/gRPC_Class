@@ -1,6 +1,6 @@
 ﻿namespace gRPC.GRPCSERVICE.Services
 {
-    public class ProtoService : 
+    public class ProtoService  
     {
     }
 }
